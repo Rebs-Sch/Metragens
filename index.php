@@ -325,7 +325,7 @@
                             }
                         ?>
                         <tr>
-                            <td><img src="<?= $m['linkCapa'] ?>" width="75px" height="75px"></td>
+                            <td><a href="<?= $m['linkStreaming'] ?>" target="_blank"><img src="<?= $m['linkCapa'] ?>" width="75px" height="75px"></td>
                             <td><?= $m['nome'] ?></td>
                             <td><?= $m['diretor'] ?></td>
                             <td><?= $tip ?></td>
