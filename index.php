@@ -223,7 +223,7 @@
                             <td><?= $m['tipo'] ?></td>
                             <td><?= $gen ?></td>
                             <td><?= $m['dataLancamento'] ?></td>
-                            <td><a href="excluir.php?=<?=$m['id']?>" onclick="return confirm('confirma a exclosão?')">excluir</a></td>
+                            <td><a href="excluir.php?id=<?=$m['id']?>" onclick="return confirm('confirma a exclosão?')">excluir</a></td>
                         </tr>
                         <?php endforeach;?>
                     </tbody>
